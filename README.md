@@ -14,7 +14,7 @@ pip3 install -r requirements.txt
 
 ### Pre-trained model
 
-You can simply use the model that I trained before. It is under `models`. Use the `inference.ipynb` to load the model and run an inference.
+You can simply use the model that I trained before. It is under `models`. Use the `inference.py` to load the model and run an inference.
 
 ### Train yourself
 
@@ -28,4 +28,4 @@ If you are interested on how well the model performs, watch [this](https://www.y
 
 ## Another approach
 
-You can also just stack 2 frames together so you have 6 channels for each input and feed that to a conv net. This is what I did in `train_cnn_2frames.ipynb`.
+You can also just stack 2 frames together so you have 6 channels for each input and feed that to a conv net. This is what I did in `train2frames.py`.
