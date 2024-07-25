@@ -1,4 +1,4 @@
-torch==1.6
+torch==2.2.0
 torchvision==0.7
 Pillow
 efficientnet-pytorch==0.7.0
